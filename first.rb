@@ -27,3 +27,10 @@ elsif i%3==1
 else
    puts "2"
 end
+
+i=7
+while i>0
+    print "#"
+    i-=1
+end
+puts
