@@ -1,0 +1,16 @@
+total 88
+-rw-r--r--  1 toshi  staff   82  5 29 16:07 1
+-rw-r--r--  1 toshi  staff  281  5 15 18:27 Main.java
+-rw-r--r--  1 toshi  staff   10  5  8 15:44 README.md
+-rw-r--r--  1 toshi  staff  179  5 22 15:53 csv01.rb
+-rw-r--r--  1 toshi  staff   41  5 29 16:08 diff.err
+-rw-r--r--  1 toshi  staff  695  5 29 16:06 diff.out
+-rw-r--r--  1 toshi  staff    0  5 29 16:08 diff.out3
+-rw-r--r--  1 toshi  staff    0  5 29 16:15 fileio.rb
+-rw-r--r--  1 toshi  staff  609  5 15 16:20 first.rb
+-rw-r--r--  1 toshi  staff    0  5 29 16:15 ls.out
+-rw-r--r--  1 toshi  staff  542  5 29 16:05 ls.out2
+-rw-r--r--  1 toshi  staff   91  5 15 18:27 method.rb
+-rw-r--r--  1 toshi  staff  345  5 15 16:31 name.rb
+-rw-r--r--  1 toshi  staff    0  5 22 15:42 test.csv
+-rw-r--r--  1 toshi  staff   87  5 29 15:55 wcresult.txt
