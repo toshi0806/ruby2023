@@ -3,7 +3,6 @@ print "name?"
 name = gets
 
 # name.txt というファイルに変数 name の値を出力
-file = File.open "name.txt", "a"
-file.puts name
-file.close
-
+File.open "name.txt", "a" do |file|
+    file.puts name
+end
