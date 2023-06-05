@@ -1,7 +1,17 @@
 #! /usr/bin/env ruby
+if ARGV[0] == "-n"
+    nopt=true
+    file=ARGV[1]
+else
+    nopt=false
+    file=ARGV[0]
+end
 
-File.open(ARGV[0], "r") do |file|
-    while line = file.gets
+linnum=1
+File.open(file, "r") do |f|
+    while line = f.gets
+        printf("%5d ",linnum) if nopt
+        linnum += 1
         puts line
     end
 end
