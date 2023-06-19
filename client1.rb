@@ -14,8 +14,10 @@ host=ARGV[0]
 path=ARGV[1]
 
 s=TCPSocket.open host, port
-s.puts "GET #{path} HTTP/1.0"
+s.puts "GET #{path} HTTP/1.1"
+s.puts "Host: #{host}" # "Host:" + host
 s.puts
+
 while line=s.gets
     line.chomp!
     break if line==""
